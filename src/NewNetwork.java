@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class NewNetwork
@@ -51,4 +52,18 @@ public class NewNetwork
 
         return hiddenLayers;
     }
+    public double result(ArrayList<ArrayList<Neuron>> hiddenLayers)
+    {
+        double output=0;
+        for(int j =0; j!=hiddenLayers.size();j++)
+        {
+            for(int i=0;i!=hiddenLayers.size();i++)
+            {
+                System.out.println(hiddenLayers.get(j).get(i).outPut);
+            }
+        }
+        return output;
+    }
+
+
 }

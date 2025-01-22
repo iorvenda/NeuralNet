@@ -5,6 +5,20 @@ public class Neuron
 {
 
 
+    ArrayList<Double> weight;
+    Double outPut;
+    Neuron()
+    {
+
+    }
+    public Double getOutPut() {
+        return outPut;
+    }
+
+    public void setOutPut(Double outPut) {
+        this.outPut = outPut;
+    }
+
     public ArrayList<Double> getWeight() {
         return weight;
     }
@@ -13,22 +27,6 @@ public class Neuron
         this.weight = weight;
     }
 
-    ArrayList<Double> weight;
-    Double outPut;
-    Neuron()
-    {
-
-    }
-
-
-
-    public Double getOutPut() {
-        return outPut;
-    }
-
-    public void setOutPut(Double outPut) {
-        this.outPut = outPut;
-    }
 
 
 }
